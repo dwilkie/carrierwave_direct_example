@@ -4,6 +4,8 @@ gem 'rails', '3.2.8'
 
 gem 'sqlite3'
 gem 'carrierwave_direct'
+gem "resque"
+gem "redis"
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
