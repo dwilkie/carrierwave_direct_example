@@ -8,7 +8,7 @@ The application uses [Resque](https://github.com/defunkt/resque) to download and
 
 Install the example application:
 
-    git clone git@github.com:dwilkie/carrierwave_direct_example.git
+    git clone git://github.com/dwilkie/carrierwave_direct_example.git
     cd carrierwave_direct_example
     bundle install --path vendor
     bundle exec rake db:migrate
