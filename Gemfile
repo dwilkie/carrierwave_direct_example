@@ -1,9 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.8'
+gem 'rails', '3.2.12'
 
 gem 'sqlite3'
-gem 'carrierwave_direct'
+gem 'carrierwave_direct', :git => "git://github.com/dwilkie/carrierwave_direct.git"
+gem 'carrierwave'
 gem "resque"
 gem "redis"
 
