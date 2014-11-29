@@ -12,6 +12,7 @@ Install the example application:
     cd carrierwave_direct_example
     bundle install --path vendor
     bundle exec rake db:migrate
+    edit: config/initializers/carrierwave.rb to add your AWS credentials or set ENV variables
     bundle exec rails s
 
 ## Contributing to the CarrierWaveDirect Example Application
